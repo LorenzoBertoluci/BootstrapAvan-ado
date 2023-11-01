@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+	background-color: #212529;
+}
+
+section {
+    padding: 60px 0;
+}
+
+button{
+	background-color: transparent;
+	border: transparent;
+}
+.carousel {
+	max-height: 320px;
+}
+
+.carousel-inner{
+	max-height: 320px;
+	max-width: 100vw;
+}
+.card {
+    border: none;
+}
+.card-body {
+	background-color: rgb(0,0,40, 0.5);
+	color: #fff;
+}
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #FFD700;
+    border-color: #FFD700;
+}
+
+.btn-primary:hover {
+    background-color: #FFC800;
+    border-color: #FFC800;
+}
+
+.bg-warning {
+    background-color: #063f7b;
+    color: #fff;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 641px) {
+    .col-lg-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
